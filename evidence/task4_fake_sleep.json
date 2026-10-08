@@ -1,0 +1,27 @@
+{
+  "task": 4,
+  "title": "Injectable Fake Sleep Testing",
+  "recorded_sleep": [
+    0.535,
+    0.763,
+    1.775
+  ],
+  "expected_delays": [
+    0.535,
+    0.763,
+    1.775
+  ],
+  "match": true,
+  "result": {
+    "ok": false,
+    "value": null,
+    "attempts": 4,
+    "log": [
+      "attempt 1: transient temporary failure",
+      "attempt 2: transient temporary failure",
+      "attempt 3: transient temporary failure",
+      "attempt 4: transient temporary failure"
+    ]
+  },
+  "verified": true
+}

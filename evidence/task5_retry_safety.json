@@ -1,0 +1,11 @@
+{
+  "task": 5,
+  "title": "Retry Risks and Idempotency",
+  "operations": {
+    "GET": true,
+    "POST_without_idempotency": false,
+    "POST_with_idempotency": true
+  },
+  "unsafe_post_error": "POST is not safe to retry without idempotency protection",
+  "verified": true
+}

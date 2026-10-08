@@ -1,0 +1,18 @@
+{
+  "task": 1,
+  "title": "Exponential Backoff with Cap and Jitter",
+  "parameters": {
+    "max_attempts": 5,
+    "base": 0.5,
+    "cap": 8.0,
+    "jitter": 0.25,
+    "seed": 42
+  },
+  "delays": [
+    0.535,
+    0.763,
+    1.775,
+    3.446
+  ],
+  "verified": true
+}

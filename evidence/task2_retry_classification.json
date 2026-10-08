@@ -1,0 +1,29 @@
+{
+  "task": 2,
+  "title": "Retry and Error Classification",
+  "transient_case": {
+    "result": {
+      "ok": true,
+      "value": "success",
+      "attempts": 3,
+      "log": [
+        "attempt 1: transient temporary failure",
+        "attempt 2: transient temporary failure",
+        "attempt 3: ok"
+      ]
+    },
+    "function_calls": 3
+  },
+  "permanent_case": {
+    "result": {
+      "ok": false,
+      "value": null,
+      "attempts": 1,
+      "log": [
+        "attempt 1: permanent permanent failure"
+      ]
+    },
+    "function_calls": 1
+  },
+  "verified": true
+}
